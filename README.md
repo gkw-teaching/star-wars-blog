@@ -14,4 +14,6 @@
   - Sass
 
 ## Development Process
-This project is designed to reveal different features of WordPress by replicating the Star Wars News WordPress site. The project is broken into different branches listed in numerical order. Each branch has a list of instructions within the README.md file.  
+This project is designed to reveal different features of WordPress by replicating the Star Wars News WordPress site. The project is broken into different branches listed in numerical order. Each branch has a list of instructions within the README.md file.   
+This is the change Crystal told me to make hehe.
+
