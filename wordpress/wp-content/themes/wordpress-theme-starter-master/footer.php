@@ -1,5 +1,5 @@
 			<!-- footer -->
-			<footer class="footer" role="contentinfo">
+			<footer class="footer tester" role="contentinfo">
 
 				<!-- copyright -->
 				<p class="copyright">
