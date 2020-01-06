@@ -48,3 +48,19 @@ This is the foundation of your project. It includes a bare-bones install of HTML
 10. Merge this foundation to your development branch.
 11. In your terminal run `git checkout -b 2-acf-install origin/2-acf-install`.
 12. In GitHub switch to the "2-acf-install" branch.
+
+***
+
+#### 2-acf-install
+Advanced Custom Fields is a super powerful plugin. It gives our clients tons of control over updating and adding content. We'll be utilizing ACF Pro a whole lot because it's awesome. Let's start with an install.
+
+1. I will provide the `advanced-custom-fields-pro` zipped file via email.
+2. Use your Finder (Mac) or Explorer (Windows) to navigate to your project root folder. Then drill down into wordpress > wp-content > plugins.
+3. Add the unzipped file to your plugins folder.
+4. Next visit star.wars/wp-admin > Plugins and activate Advanced Custom Fields.
+5. You'll see a new "Custom Fields" icon on your dashboard. Hover over it and select "updates".
+6. We'll be using ACF Pro, which requires a license key. I'll provide the license key via email.
+7. git add, git commit, git push to development.
+8. In your terminal run `git checkout -b 3-assets origin/3-assets`.
+9. In GitHub switch to the "3-assets" branch.
+
