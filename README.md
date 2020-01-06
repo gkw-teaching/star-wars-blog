@@ -1,7 +1,5 @@
 # Star Wars Blog
 
-# CLONE!!!
-
 ## Purpose
 This project is designed to introduce different features of WordPress by replicating the [Star Wars News WordPress site](https://starwars.com/news). You'll be introduced to WordPress Posts, Featured Images, tags, categories, and Advanced Custom Fields.
 
