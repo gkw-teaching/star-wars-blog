@@ -2,7 +2,7 @@
 
 	<main role="main">
 		<!-- section -->
-		<section>
+		<section class="sup 1">
 
 			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
 

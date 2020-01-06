@@ -1,4 +1,4 @@
-# Star Wars Blog
+# Star Wars Blog Clone
 
 ## Purpose
 This project is designed to introduce different features of WordPress by replicating the [Star Wars News WordPress site](https://starwars.com/news). You'll be introduced to WordPress Posts, Featured Images, tags, categories, and Advanced Custom Fields.
@@ -63,6 +63,10 @@ Advanced Custom Fields is a super powerful plugin. It gives our clients tons of 
 7. git add, git commit, git push to development.
 8. In your terminal run `git checkout -b 3-assets origin/3-assets`.
 9. In GitHub switch to the "3-assets" branch.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2a6c1a116b5549ab01d6183f6d7eaab2cb35ecf2
 
 ***
 
@@ -80,6 +84,12 @@ This portion of the project is all about blog assets (images and copy) and blog 
 ![Post example 2](wordpress/wp-content/themes/wordpress-theme-starter-master/img/github-img/post-2.png?raw=true "Post example 2")
 
 Visit your site in your browser. Pretty darn aweful, right? Well, sure. There's no css yet. But check it out more closely. Your title, featured image, and excerpt are showing on the Posts page, right? I hope so. Click the title, now you're taken to the post. Dope! We'll make it look pretty in the next project branch.
+<<<<<<< HEAD
+
+6. git add, git commit, git push to development. 
+7. In your terminal run `git checkout -b 4/pretty origin/4-pretty`.
+8. In GitHub switch to the "4-pretty" branch.
+=======
 
 6. git add, git commit, git push to development. 
 7. In your terminal run `git checkout -b 4/pretty origin/4-pretty`.
@@ -88,3 +98,16 @@ Visit your site in your browser. Pretty darn aweful, right? Well, sure. There's 
 ***
 
 #### 4-pretty
+Now that you're on branch "4-pretty" run `sass --watch ./sass/style.scss:./style.css` in your terminal. Pretty spiffy, right? I added style to the Sass folder. Absolutely check out the code, and use it as a reference if needed. The main files I've worked in so far are `sass > modules > variables.scss`, `sass > pages > home.scss`, `sass > partials > header`, `sass > partials > footer`, `sass > style.scss`, `footer.php`, `header.php`, `home.php`, `loop.php`, and `functions.php`.
+
+1. In wp-admin > Posts, delete the "Hello World" post. Say bye bye, we no longer need it.
+2. Now add the remaining blog posts using the assets provided and get ready for magic.
+3. git add, git commit, git push to development. 
+4. In your terminal run `git checkout -b 4/pretty origin/4-pretty`.
+5. In GitHub switch to the "5-acf" branch.
+>>>>>>> 2a6c1a116b5549ab01d6183f6d7eaab2cb35ecf2
+
+***
+
+### 5-acf
+
