@@ -70,51 +70,9 @@ html {
  * ---
  */
 .footer {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
-.footer .background {
-  height: 500px;
-  background-color: #000000;
-  background-position: center top;
-  background-repeat: no-repeat;
-}
-.footer .social {
-  position: absolute;
-  color: white;
-  top: 8rem;
-  text-transform: uppercase;
-  font-family: "Roboto", serif;
-  letter-spacing: 0.05rem;
-  font-size: 1.4rem;
-  color: #999999;
-  height: 6.5rem;
-}
-.footer .social ul {
-  width: 200px;
-}
-.footer .social li {
-  list-style-type: none;
-  width: 20px;
-}
-.footer .link-bank {
-  position: absolute;
-  color: red;
-  top: 17rem;
-  text-transform: uppercase;
-  font-family: "Roboto", serif;
-  letter-spacing: 0.05rem;
-  font-size: 1.4rem;
-  color: #999999;
-  height: 30rem;
-}
-.footer .link-bank ul {
-  width: 100vw;
-  height: 30rem;
-}
-.footer .link-bank li {
-  list-style-type: none;
+  width: 50%;
+  height: 50px;
+  background-color: yellow;
 }
 
 .home {
