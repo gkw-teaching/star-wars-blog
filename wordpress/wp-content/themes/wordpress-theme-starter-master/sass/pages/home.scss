@@ -1,1 +1,107 @@
-//Empty scss in anticpation for page-home.php
+.home {
+  background-color: #2A2A2A;
+  font-family: $font;
+  h1 {
+    margin-bottom: 0px;
+  }
+  .cats-menu {
+    color: $blue;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+    border-top: 13px solid #131313;
+    border-bottom: 13px solid #131313;
+  }
+
+  #trapezoid {
+    border-bottom: 10px solid #131313;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    right: 0;
+    padding-top: 4px;
+    width: 150px;
+    right: 40px;
+  }
+  .feat-img {
+    object-fit: cover;
+    width: 100%;
+    height: 188px;
+  }
+  .bottom-line {
+    border-bottom: .1rem solid $blue;
+  }
+  img {
+    //Used blank png to contain size of background-image: url() and add alt text
+    width: 100%;
+  }
+  .placeholder { 
+    position: relative;
+    //Used inline style background-image: url() to dynamically pull in feature image
+    background-position: 0 calc(100% - 68%);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .padding {
+    padding: 1rem;
+  }
+  .title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: $font;
+    font-weight: bold;
+    font-size: 15px;
+    a {
+      color: $not-white;
+    }
+    a:visited {
+      color: $not-white;
+    }
+    a:hover {
+      color: $blue;
+      text-decoration: none;
+    }
+  }
+  .text {
+    color: $grey-text;
+    font-size: 15px;
+  }
+  .post-info {
+    color: $grey-text;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: $byline;
+    letter-spacing: .05rem;
+  }
+  .byline-author {
+    a {
+      color: $grey-text;
+    }
+    a:visited {
+      color: $grey-text;
+    }
+    a:hover {
+      color: $blue;
+      text-decoration: none;
+    } 
+  }
+
+  .byline-date {
+    a {
+      color: $blue;
+    }
+    a:visited {
+      color: $blue;
+    }
+    a:hover {
+      color: $blue;
+      text-decoration: none;
+    } 
+  }
+  ul {
+    padding-inline-start: unset;
+  }
+}

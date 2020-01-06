@@ -2,7 +2,7 @@
 
 	<main role="main">
 	<!-- section -->
-	<section>
+	<section class="sup">
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 

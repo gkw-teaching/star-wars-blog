@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
-	<main role="main">
+	<main role="main" class="home">
 		<!-- section -->
-		<section class="sup 1">
+		<section>
 
-			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
-
+			<h1 class="cats-menu">All News + Blog Categories<div id="trapezoid"></div></h1>
+			
 			<?php get_template_part('loop'); ?>
 
 			<?php get_template_part('pagination'); ?>
