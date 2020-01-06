@@ -3,8 +3,10 @@
  * ---
  * Main `sass` file. Import here `sass` files
  */
+
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Anton|Oswald&display=swap");
+
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

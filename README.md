@@ -64,6 +64,7 @@ Advanced Custom Fields is a super powerful plugin. It gives our clients tons of 
 8. In your terminal run `git checkout -b 3-assets origin/3-assets`.
 9. In GitHub switch to the "3-assets" branch.
 
+
 ***
 
 #### 3-assets
@@ -99,3 +100,4 @@ Now that you're on branch "4-pretty" run `sass --watch ./sass/style.scss:./style
 ***
 
 ### 5-acf
+
