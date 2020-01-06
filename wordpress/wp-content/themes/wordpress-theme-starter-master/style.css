@@ -1,5 +1,5 @@
 /**
- * styles.scss
+ * style.scss
  * ---
  * Main `sass` file. Import here `sass` files
  */
@@ -115,6 +115,12 @@ html {
 }
 .footer .link-bank li {
   list-style-type: none;
+}
+
+.tester {
+  width: 50%;
+  height: 50px;
+  background-color: yellow;
 }
 
 .home {
