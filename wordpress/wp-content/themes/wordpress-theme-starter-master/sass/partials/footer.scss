@@ -6,8 +6,51 @@
 
 .footer {
   width: 100%;
-  height: 200px;
-  background-color: tomato;
+  height: 100%;
+  position: absolute;
+  .background {
+    height: 500px;
+    background-color: #000000;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  .social {
+    position: absolute;
+    color: white;
+    top: 8rem;
+    text-transform: uppercase;
+    font-family: $font;
+    letter-spacing: .05rem;
+    font-size: 1.4rem;
+    color: $grey-text;
+    height: 6.5rem;
+    ul {
+      width: 200px;
+    }
+    li {
+      list-style-type: none;
+      width: 20px;
+    }
+  }
+  .link-bank {
+    position: absolute;
+    color: red;
+    top: 17rem;
+    text-transform: uppercase;
+    font-family: $font;
+    letter-spacing: .05rem;
+    font-size: 1.4rem;
+    color: $grey-text;
+    height: 30rem;
+    ul {
+      width: 100vw;
+      height: 30rem;
+    }
+    li {
+      list-style-type: none;
+    }
+  }
+
 }
 .tester {
   width: 50%;
