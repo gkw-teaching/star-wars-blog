@@ -59,7 +59,7 @@ html {
 .logo {
   display: flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: space-between;
 }
 
 /**
@@ -77,7 +77,8 @@ html {
 }
 
 .copyright {
-  height: 100vh;
+  height: 500px;
+  color: pink;
 }
 
 /*# sourceMappingURL=style.css.map */
