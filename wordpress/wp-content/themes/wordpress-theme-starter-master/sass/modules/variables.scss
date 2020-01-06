@@ -7,17 +7,20 @@
 /**
  * Typography
  */
-// @import url('https://fonts.googleapis.com/css?family=Hind:400,700|Roboto+Slab');
-// $font-family-base: 'Roboto Slab', serif;
-// $font-family-secondary: 'Hind', sans-serif;
-// $font-size-base: 1.6rem;
+
+// @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+$font: 'Roboto', serif;
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Oswald&display=swap');
+$byline: 'Oswald', serif;
 
 /**
  * Colors
  */
-
-// $text-color: #000;
-// $body-bg: #fff;
+$blue: #3273c5;
+$not-white: #DDDDDD;
+$grey-text: #999999;
 
 
 /**
