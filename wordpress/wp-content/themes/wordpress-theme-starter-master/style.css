@@ -1,8 +1,10 @@
 /**
- * styles.scss
+ * style.scss
  * ---
  * Main `sass` file. Import here `sass` files
  */
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Anton|Oswald&display=swap");
 * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -52,8 +54,15 @@ html {
  */
 .header {
   width: 100%;
-  height: 75px;
-  background-color: mediumaquamarine;
+  height: 6rem;
+  background-color: #000;
+  font-family: "Roboto", serif;
+}
+.header #navbar {
+  position: fixed;
+}
+.header .mobile-logo-img {
+  width: 192px;
 }
 
 /**
@@ -62,14 +71,156 @@ html {
  */
 .footer {
   width: 100%;
-  height: 200px;
-  background-color: tomato;
+  height: 100%;
+  position: absolute;
+}
+.footer .background {
+  height: 500px;
+  background-color: #000000;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.footer .social {
+  position: absolute;
+  color: white;
+  top: 8rem;
+  text-transform: uppercase;
+  font-family: "Roboto", serif;
+  letter-spacing: 0.05rem;
+  font-size: 1.4rem;
+  color: #999999;
+  height: 6.5rem;
+}
+.footer .social ul {
+  width: 200px;
+}
+.footer .social li {
+  list-style-type: none;
+  width: 20px;
+}
+.footer .link-bank {
+  position: absolute;
+  color: red;
+  top: 17rem;
+  text-transform: uppercase;
+  font-family: "Roboto", serif;
+  letter-spacing: 0.05rem;
+  font-size: 1.4rem;
+  color: #999999;
+  height: 30rem;
+}
+.footer .link-bank ul {
+  width: 100vw;
+  height: 30rem;
+}
+.footer .link-bank li {
+  list-style-type: none;
 }
 
 .tester {
   width: 50%;
   height: 50px;
   background-color: yellow;
+}
+
+.home {
+  background-color: #2A2A2A;
+  font-family: "Roboto", serif;
+}
+.home h1 {
+  margin-bottom: 0px;
+}
+.home .cats-menu {
+  color: #3273c5;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  text-align: center;
+  padding: 1rem;
+  letter-spacing: 2px;
+  font-weight: 700;
+  border-top: 13px solid #131313;
+  border-bottom: 13px solid #131313;
+}
+.home #trapezoid {
+  border-bottom: 10px solid #131313;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  right: 0;
+  padding-top: 4px;
+  width: 150px;
+  right: 40px;
+}
+.home .feat-img {
+  object-fit: cover;
+  width: 100%;
+  height: 188px;
+}
+.home .bottom-line {
+  border-bottom: 0.1rem solid #3273c5;
+}
+.home img {
+  width: 100%;
+}
+.home .placeholder {
+  position: relative;
+  background-position: 0 calc(100% - 68%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home .padding {
+  padding: 1rem;
+}
+.home .title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Roboto", serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+.home .title a {
+  color: #DDDDDD;
+}
+.home .title a:visited {
+  color: #DDDDDD;
+}
+.home .title a:hover {
+  color: #3273c5;
+  text-decoration: none;
+}
+.home .text {
+  color: #999999;
+  font-size: 15px;
+}
+.home .post-info {
+  color: #999999;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Oswald", serif;
+  letter-spacing: 0.05rem;
+}
+.home .byline-author a {
+  color: #999999;
+}
+.home .byline-author a:visited {
+  color: #999999;
+}
+.home .byline-author a:hover {
+  color: #3273c5;
+  text-decoration: none;
+}
+.home .byline-date a {
+  color: #3273c5;
+}
+.home .byline-date a:visited {
+  color: #3273c5;
+}
+.home .byline-date a:hover {
+  color: #3273c5;
+  text-decoration: none;
+}
+.home ul {
+  padding-inline-start: unset;
 }
 
 /*# sourceMappingURL=style.css.map */
