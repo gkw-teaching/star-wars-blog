@@ -11,4 +11,8 @@
   background-color: mediumaquamarine;
 }
 
-
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
