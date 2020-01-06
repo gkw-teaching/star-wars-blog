@@ -63,3 +63,4 @@ Advanced Custom Fields is a super powerful plugin. It gives our clients tons of 
 7. git add, git commit, git push to development.
 8. In your terminal run `git checkout -b 3-assets origin/3-assets`.
 9. In GitHub switch to the "3-assets" branch.
+
