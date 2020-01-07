@@ -88,3 +88,14 @@ Visit your site in your browser. Pretty darn aweful, right? Well, sure. There's 
 ***
 
 #### 4-pretty
+Now that you're on branch "4-pretty" run `sass --watch ./sass/style.scss:./style.css` in your terminal. Pretty spiffy, right? I added style to the Sass folder. Absolutely check out the code, and use it as a reference if needed. The main files I've worked in so far are `sass > modules > variables.scss`, `sass > pages > home.scss`, `sass > partials > header`, `sass > partials > footer`, `sass > style.scss`, `footer.php`, `header.php`, `home.php`, `loop.php`, and `functions.php`.
+
+1. In wp-admin > Posts, delete the "Hello World" post. Say bye bye, we no longer need it.
+2. Now add the remaining blog posts using the assets provided and get ready for magic.
+3. git add, git commit, git push to development. 
+4. In your terminal run `git checkout -b 4/pretty origin/4-pretty`.
+5. In GitHub switch to the "5-acf" branch.
+
+***
+
+### 5-acf
