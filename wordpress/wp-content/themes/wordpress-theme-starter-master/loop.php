@@ -1,8 +1,12 @@
-<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+<?php 
+	/* Template Name: Latest Posts 
+		 Template Post Type: Post */
+	if (have_posts()): while (have_posts()) : the_post(); 
+?>
 
 <!-- Dynamically adding alt text to variable -->
-		<?php $thumbnail_id  = get_post_thumbnail_id( $post->ID ); ?>
-		<?php $thumbnail_alt = get_post_meta( $thumbnail_id, '_wp_attachment_image_alt', true );?>
+	<?php $thumbnail_id  = get_post_thumbnail_id( $post->ID ); ?>
+	<?php $thumbnail_alt = get_post_meta( $thumbnail_id, '_wp_attachment_image_alt', true );?>
 
 	<!-- article -->
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
