@@ -1,8 +1,17 @@
 <?php 
 	/* Template Name: Latest Posts 
 		 Template Post Type: Post */
-	if (have_posts()): while (have_posts()) : the_post(); 
-?>
+	if (have_posts()): while (have_posts()) : the_post(); ?>
+
+	<!-- Code to use the Advanced Custom Field image -->
+	<?php 
+$image = get_field('image');
+$size = 'small'; // (thumbnail, medium, large, full or custom size)
+if( $image ) {
+    ?> <h1>suppppp</h1> <?php
+} ?>
+
+
 
 <!-- Dynamically adding alt text to variable -->
 	<?php $thumbnail_id  = get_post_thumbnail_id( $post->ID ); ?>
