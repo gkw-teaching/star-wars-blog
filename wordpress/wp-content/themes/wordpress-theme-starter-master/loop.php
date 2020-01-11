@@ -1,4 +1,8 @@
-<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+<?php 
+/* Template Name: Latest Posts
+  Template Post Type: Post */
+
+if (have_posts()): while (have_posts()) : the_post(); ?>
 
 <!-- Dynamically adding alt text to variable -->
 		<?php $thumbnail_id  = get_post_thumbnail_id( $post->ID ); ?>
@@ -38,6 +42,13 @@
 				<?php the_category();?>&nbsp// <?php the_time('F j, Y'); ?>
 			</div>
 			<!-- /post details -->
+			
+			<!-- Code to use the Advanced Custom Field image -->
+			<?php if( get_field('profile_picture') ): ?>
+       		 <img class="profile-picture" src="<?php the_field('profile_picture'); ?>" />
+      		<?php endif; ?>
+		</div>
+
 		</div>
 <?php endwhile; ?>
 

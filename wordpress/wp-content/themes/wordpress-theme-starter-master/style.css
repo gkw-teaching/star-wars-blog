@@ -216,5 +216,8 @@ html {
 .home ul {
   padding-inline-start: unset;
 }
+.home .profile-picture {
+  width: 100px;
+}
 
 /*# sourceMappingURL=style.css.map */
