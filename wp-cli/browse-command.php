@@ -23,9 +23,9 @@ $browse_command = function( $_, $assoc_args ) {
 	$wp_admin = \WP_CLI\Utils\get_flag_value( $assoc_args, 'wp-admin' );
 
 	if ( true === $wp_admin ) {
-		$url = 'http://star.wars/wp-admin/';
+		$url = 'http://star.wars2/wp-admin/';
 	} else {
-		$url = 'http://star.wars/';
+		$url = 'http://star.wars2/';
 	}
 
 	passthru( $exec . ' ' . escapeshellarg( $url ) );
