@@ -218,6 +218,9 @@ html {
 }
 .home .profile-picture {
   width: 100px;
+  position: absolute;
+  top: 511px;
+  left: 273px;
 }
 
 /*# sourceMappingURL=style.css.map */
